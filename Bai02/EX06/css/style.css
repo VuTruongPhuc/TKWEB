@@ -1,0 +1,77 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+  
+  
+}
+
+
+/* Global */
+section .container{
+    margin: 50px;
+}
+
+
+ul{
+ 
+
+}
+/* Header **/
+header{
+    height: 137px;
+    background-color: rgb(35, 37, 43);
+    border-bottom: 3px solid  rgba(223, 138, 69, 0.815);
+
+}
+
+header a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+header li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+header #branding{
+  
+
+}
+header #branding h1{
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 50px;
+
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+header nav{
+    float: right;
+    margin-top: -55px;
+    margin-right: 50px;
+}
+
+header .highlight, header .current a{
+    color: cyan;
+}
+header a:hover{
+    background-color: greenyellow;
+    color: hotpink;
+}
+
+footer{
+    background-color: rgba(223, 138, 69, 0.815);
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
